@@ -2,5 +2,11 @@
   "name": "asaas-proxy",
   "version": "1.0.0",
   "type": "module",
+  "scripts": {
+    "start": "node api/asaas.js"
+  },
+  "dependencies": {
+    "node-fetch": "^3.3.2"
+  },
   "packageManager": "npm@10.2.0"
 }
