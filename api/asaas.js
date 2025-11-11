@@ -1,9 +1,9 @@
 export default async function handler(req, res) {
   const ASAAS_BASE = "https://api.asaas.com/v3";
-  const TOKEN = process.env.ASAAS_TOKEN;
+  const TOKEN = process.env.access_token;
 
   if (!TOKEN) {
-    return res.status(500).json({ error: "Token ASAAS_TOKEN não encontrado no ambiente da Vercel." });
+    return res.status(500).json({ error: "Token access_token não encontrado no ambiente da Vercel." });
   }
 
   // CORS headers
