@@ -1,5 +1,6 @@
 {
   "name": "asaas-proxy",
   "version": "1.0.0",
-  "type": "module"
+  "type": "module",
+  "packageManager": "npm@10.2.0"
 }
